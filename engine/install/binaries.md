@@ -224,7 +224,7 @@ To install server and client binaries, perform the following steps:
 3. Register the service and start the Docker Engine:
 
     ```powershell
-    PS C:\> $Env:ProgramFiles\Docker\dockerd --register-service
+    PS C:\> &$Env:ProgramFiles\Docker\dockerd --register-service
     PS C:\> Start-Service docker
     ```
 
